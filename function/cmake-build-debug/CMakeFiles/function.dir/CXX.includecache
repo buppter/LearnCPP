@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sxt/Documents/CPP/Learn_CPP/function/main.cpp
+iostream
+-
+swap.h
+/Users/sxt/Documents/CPP/Learn_CPP/function/swap.h
+
+/Users/sxt/Documents/CPP/Learn_CPP/function/swap.cpp
+swap.h
+/Users/sxt/Documents/CPP/Learn_CPP/function/swap.h
+
+/Users/sxt/Documents/CPP/Learn_CPP/function/swap.h
+iostream
+-
+
